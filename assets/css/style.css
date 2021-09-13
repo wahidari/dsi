@@ -1,0 +1,120 @@
+@media only screen and (max-width: 768px) {
+    .text-md-start {
+        text-align: left !important;
+    }
+    .text-center-sm {
+        text-align: center !important;
+    }
+    h1 {
+        font-size: 32px !important;
+    }
+    .mt-sm {
+        margin-top: 16px;
+    }
+    .header-service {
+        height: 40vh !important;
+    }
+}
+
+.hero {
+    min-height: 80vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.p-description {
+    font-size: 17px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.header-service {
+    background: url("../images/header1.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 60vh;
+}
+
+.header-technology {
+    background: url("../images/header2.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 65vh;
+}
+
+.header-company {
+    background: url("../images/header3.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 63vh;
+}
+
+.header-client {
+    background: url("../images/header4.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 63vh;
+}
+
+.header-partner {
+    background: url("../images/header5.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 63vh;
+}
+
+.btn-float {
+    z-index: 1000;
+    padding: 4px 8px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#tech {
+    margin-top: 180px !important;
+}
+
+@media (max-width: 575.98px) { 
+    #tech {
+        margin-top: 60px !important;
+    }
+ }
+
+.a-icon {
+    font-size: 20px;
+    color: #25c685;
+    margin: 0px 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0.125rem 0.15rem rgb(0 0 0 / 20%);
+}
+
+a.a-icon:hover {
+    font-size: 22px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #dc3545 !important;
+}
